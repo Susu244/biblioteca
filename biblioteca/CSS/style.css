@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(
+        135deg,
+        #141414,
+        #4b4b4a
+    );
+
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    width: 350px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    padding: 13px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 15px rgb(214, 213, 213);
+}
+
+h1{
+    color: #000000;
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+p{
+    color:#000000;
+    margin-bottom: 15px;
+
+}
+
+button{
+     width: 80%;
+    height: 40px;
+    background-color: rgb(24, 23, 20);
+    color: rgb(252, 252, 251);
+    border: none;
+    border-radius: 8px;
+}
