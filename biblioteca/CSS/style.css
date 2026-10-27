@@ -13,14 +13,23 @@ body{
     margin: 0;
 }
 
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 200px;
+    box-shadow: 0 0 15px gray;
+}
+
 .container{
-    width: 350px;
-    margin: 20px auto;
-    background-color: whitesmoke;
-    padding: 13px;
+    width: 400px;
+    margin: 0;
+    background-color:#ECDFCB;
+    padding: 30px;
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 8px 15px rgb(214, 213, 213);
+    
 }
 
 h1{
