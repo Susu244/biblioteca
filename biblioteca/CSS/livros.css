@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:#f4eee8;
+    color:#3b281e;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+h1{
+    grid-column: 1/ -1;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #603c28;
+}
+
+.container p{
+    color: #765d4d;
+    margin-top: -15px;
+}
+
+
+.livro
+
+
+.livro h3{
+    font-family: Georgia, serif;
+    font-size: 19px;
+    color: #603c28;
+    margin-bottom: 15px;
+}
+
+.livro img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.categoria{
+    font-family: Georgia, serif;
+    color: #603c28;
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+
+
+.btn-detalhes{
+    display: block;
+    margin-top: auto;
+    padding: 12px;
+    background-color: #96502f;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.btn-comprar{
+    display: block;
+    margin-top: 10px;
+    padding: 12px;
+    color: #d4af37;
+    border-radius: 7px;
+}
